@@ -1,10 +1,11 @@
 import React from "react";
 import CoinItem from "./CoinItem";
+import "./Coins.css";
 
 const Coins = ({ coins }) => {
   return (
     <div className="container">
-      <div className="">
+      <div>
         <div className="heading">
           <p>#</p>
           <p className="coin-name">Coin</p>
